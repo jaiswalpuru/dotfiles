@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/jaiswalpuru/Desktop/code/ALGO DS/LeetCode/Study Plan/Practice Problems/Medium/Apply Discount To Prices'
