@@ -10,13 +10,12 @@ highlight Normal ctermfg=grey ctermbg=black
 " Plugins will be downloaded under the specified directory.
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
+" Fancy stuff
+Plug 'mhinz/vim-startify'
+
 " Declare the list of plugins.
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
-
-"Neo - Vim
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 
 " Nerd tree theme for directories
 Plug 'preservim/nerdtree' 
@@ -34,9 +33,6 @@ Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 Plug 'bfrg/vim-cpp-modern'
-Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
-Plug 'mfussenegger/nvim-jdtls'
 Plug 'octol/vim-cpp-enhanced-highlight'
 
 call plug#end()
